@@ -21,15 +21,15 @@ nav
 {
     height: 117px;
 }
-/* @media (max-width: 1199px)
+
+@media (max-width: 1199px)
 {
-    nav .container-fluid{
+    nav .container{
         background-color: #fff;
         position: relative;
-        padding: 16px !important;
-        z-index: 4545345;
+        z-index: 1000;
     }
-} */
+}
 
 .btn-myAccount
 {
