@@ -20,9 +20,8 @@ li.nav-item a
 nav 
 {
     height: 117px;
-    padding: 0 40px;
 }
-@media (max-width: 1199px)
+/* @media (max-width: 1199px)
 {
     nav .container-fluid{
         background-color: #fff;
@@ -30,7 +29,7 @@ nav
         padding: 16px !important;
         z-index: 4545345;
     }
-}
+} */
 
 .btn-myAccount
 {
@@ -682,11 +681,10 @@ button[show]
 }
 ul[role="tablist"] button
 {
-    margin: 0 8px;
     padding: 4px;
     border: 2px solid #E2E2ED;
     background-color: transparent;
-    color: #E2E2ED;
+    color: #7780A1;
     border-radius: 8px;
 }
 .cards3 .owl-stage > .active ~ .active
@@ -858,6 +856,9 @@ ul[role="tablist"] button
     padding-left: 100px;
     width: 50%;
 }
+.user-txt p{
+    text-align: center;
+}
 .bck-ground img
 {
     width: 50%;
@@ -912,9 +913,14 @@ ul[role="tablist"] button
 {
     .h3
     {
-        font-size: 32px;
+        font-size: 30px !important
+    }
+    .btn-myAccount
+    {
+        width: unset
     }
 }
+
 .slide3
 {
     padding: 50px 0;
